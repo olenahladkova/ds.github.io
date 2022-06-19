@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #5E4156;
+    line-height: 1.6;
+}
+
+header {
+    background: #9CFFF3;
+    background: -moz-linear-gradient(left, #9CFFF3 0%, #FFAAE7 50%, #C7B8C2 100%);
+    background: -webkit-linear-gradient(left, #9CFFF3 0%, #FFAAE7 50%, #C7B8C2 100%);
+    background: linear-gradient(to right, #9CFFF3 0%, #FFAAE7 50%, #C7B8C2 100%);
+    padding: 25px 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 20px 20px;
+}
+
+h2 {
+    font-weight: medium;
+    font-size: 24px;
+    text-align: left;
+    margin: 20px 20px;
+}
+
+h3 {
+    margin: 20px 20px;
+}
+
+h4 {
+    text-decoration: underline;
+    margin: 20px;
+    margin: 20px 20px;
+}
+
+a {
+    color: #00AE99;    
+}
+
+a:hover, a.hover {
+    color: #AE007D;
+}
+
+p {
+    margin: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul.nav li {
+    display: inline;
+    list-style: none;
+}
+
+nav ul {
+    padding: 0;
+}
+
+div {
+    margin: 20px 20px;
+}
+
+quote {
+    font-family: 'Ms Madi', cursive;
+    font-size: 28px;
+}
+
+.colors div {
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    border-radius: 5%;
+    text-align: center;
+    padding-top: 15px;
+    margin: 5px 20px;
+}
+
+.green {
+    background-color: #00AE99;
+    color: #9CFFF3;
+}
+
+.lightgreen {
+    background-color: #9CFFF3;
+    color: #00AE99;
+}
+
+.lightpink {
+    background-color: #FFAAE7;
+    color: #AE007D;
+}
+
+.pink {
+    background-color: #AE007D;
+    color: #FFAAE7;
+}
+
+.lightgray {
+    background-color: #C7B8C2;
+}
+
+.gray {
+    background-color: #5E4156;
+    color: #C7B8C2;
+}
+
+.left, .right {
+    display: inline-block;
+    width: 40%;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.ms_madit {
+    font-family: 'Ms Madi', cursive;
+    font-size: 28px;
+}
+
+.pink-b {
+    border: 2px solid #AE007D;
+    color: #AE007D;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pink-b:hover {
+    background-color: #AE007D;
+    color: #FFAAE7;
+}
+
+.green-b {
+    border: 2px solid #00AE99;
+    color: #00AE99;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.green-b:hover {
+    background-color: #00AE99;
+    color: #9CFFF3;
+}
+
+.gray-b {
+    border: 2px solid #5E4156;
+    color: #5E4156;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.gray-b:hover {
+    background-color: #5E4156;
+    color: #C7B8C2;
+}
